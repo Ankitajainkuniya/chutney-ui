@@ -1,4 +1,4 @@
-const BASE_URL = import.meta.env.VITE_API_URL || 'https://web-production-82d65.up.railway.app'
+const BASE_URL = import.meta.env.VITE_API_URL || ''
 
 export function apiUrl(path: string) {
   return `${BASE_URL}${path}`
